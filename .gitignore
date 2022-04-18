@@ -20,3 +20,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.history/
+node_modules/.cache/default-development/
+node_modules/.cache/babel-loader/18b43bbb5586f1d181b47033ca13f6f2.json
+node_modules/.cache/babel-loader/
