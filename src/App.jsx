@@ -1,5 +1,6 @@
 import "./App.css";
 
+import Button from "./components/Button";
 import { useState } from "react";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <div>Product List</div>
+      <Button color="blue" name="Thêm" width="500px" />
 
       <ul>
         {productList.map((product) => (
